@@ -1,0 +1,114 @@
+.about {
+    font-family: 'Montserrat';
+    height: auto !important;
+    background-color: white;
+    overflow-x: hidden;
+    color: black;
+  }
+  
+  .SkillPage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .SkillText {
+    flex: 1;
+    margin-right: 2rem;
+  }
+  
+  .AboutTextHeading {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .AboutText p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .TiltWrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Avatar {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .SkillPage {
+      flex-direction: column;
+    }
+  
+    .AboutText {
+      margin-right: 0;
+      margin-bottom: 2rem;
+    }
+  }
+  
+  .skill-container .skillset {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 5px;
+  }
+  
+  .techLogo,
+  .hobbyLogo {
+    border: 2px solid transparent;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+  }
+  
+  @media screen and (max-width: 750px) {
+    .techLogo,
+    .hobbyLogo {
+      height: 40px;
+      width: 40px;
+      padding: 8px;
+    }
+  }
+  
+  .techLogo.CgCPlusPlus { background: #f34b7d; }
+  .techLogo.TbBrandHtml5 { background: #e34c26; }
+  .techLogo.TbBrandJavascript { background: #f7df1e; }
+  .techLogo.SiReact { background: #61dafb; }
+  .techLogo.TbBrandCss3 { background: #1572b6; }
+  .techLogo.DiGit { background: #f1502f; }
+  .techLogo.IoLogoNpm { background: #cb3837; }
+  .techLogo.SiBootstrap { background: #7952b3; }
+  .techLogo.SiReactrouter { background: #ca4245; }
+  .techLogo.SiVisualstudiocode { background: #007acc; }
+  .techLogo.IoLogoWindows { background: #00a4ef; }
+  .techLogo.SiFigma { background: #f24e1e; }
+  .techLogo.SiAdobephotoshop { background: #31a8ff; }
+  .techLogo.SiAdobeillustrator { background: #ff9a00; }
+  .techLogo.SiBlender { background: #f5792a; }
+  .techLogo.SiAdobeaftereffects { background: #9999ff; }
+  
+  .Tilt {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Выравнивание анимации по правому краю */
+  }
+  
+  .Animation {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  
